@@ -27,4 +27,12 @@ class Client {
         $data = json_decode((string) $response->getBody(), true);
         return $data['choices'][0]['message']['content'] ?? '';
     }
+
+    /**
+     * Convenience-Wrapper: nur API-Key, Modell und Prompt übergeben.
+     */
+    public static function OpenRouterChat(string $apiKey, string $model, string $prompt): string {
+        $client = new self($apiKey);
+        return $client->chat([['role' => 'user', 'content' => $prompt]], $model);
+    }
 }
