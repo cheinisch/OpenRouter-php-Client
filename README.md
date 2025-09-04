@@ -1,4 +1,4 @@
-# PHP OpenRouter Client
+# OpenRouter PHP Client
 
 Lightweight PHP client for the OpenRouter.ai API.
 OpenAI-compatible, minimal, and easy to use.
