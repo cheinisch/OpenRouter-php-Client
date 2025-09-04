@@ -1,5 +1,5 @@
 {
-  "name": "cheinisch/php-openrouter-client",
+  "name": "cheinisch/openrouter-php-client",
   "description": "PHP Client für OpenRouter.ai API",
   "type": "library",
   "license": "MIT",
