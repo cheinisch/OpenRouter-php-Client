@@ -11,7 +11,7 @@ OpenAI-compatible, minimal, and easy to use.
 
 ## Installation
 
-`composer require cheinisch/php-openrouter-client`
+`composer require cheinisch/openrouter-php-client`
 
 ## Usage
 
