@@ -1,4 +1,4 @@
-# OpenRouter PHP Client
+⅕# OpenRouter PHP Client
 
 Lightweight PHP client for the OpenRouter.ai API. Minimal, and easy to use.
 
@@ -33,9 +33,9 @@ require __DIR__.'/vendor/autoload.php';
 use OpenRouter\Client;
 
 $apiKey  = getenv('OPENROUTER_API_KEY');
-$model   = 'openai/gpt-4o-mini';
+$model   = 'mistralai/mistral-small';
 $prompt  = 'Give me one short fun fact about PHP.';
-$referer = 'https://example.com/demo'; // optional
+$referer = 'https://example.com'; // optional
 $title   = 'My PHP App';               // optional
 
 echo Client::OpenRouterChat($apiKey, $model, $prompt, $referer, $title);
