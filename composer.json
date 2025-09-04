@@ -11,7 +11,7 @@
     "client",
     "chat-completions"
   ],
-  funding": [
+  "funding": [
     {
       "type": "github",
       "url": "https://github.com/sponsors/cheinisch"
