@@ -44,8 +44,9 @@ echo Client::OpenRouterChat($apiKey, $model, $prompt, $referer, $title);
 
 ## Available Language Models
 
-* openai/gpt-4o-mini
 * anthropic/claude-3.5-sonnet
 * google/gemini-2.5-flash
-* x-ai/grok-3-mini
 * mistralai/mistral-small
+* openai/gpt-4o-mini
+* x-ai/grok-3-mini
+* ... and a lot more
