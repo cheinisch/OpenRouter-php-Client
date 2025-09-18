@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.2.1
+
+### Changes
+
+* Change Folder structure
+
 ## v0.2.0
 
 ### Changes
