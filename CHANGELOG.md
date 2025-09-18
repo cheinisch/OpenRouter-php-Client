@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.2.0
+
+### Changes
+
+* Change Namespace from OpenROuter\Client to cheinisch\OpenRouterClient
+* Change Client::OpenRouterChat to OpenRouterClient::OpenRouterChat
+
 ## v0.0.0.4
 
 ### New
