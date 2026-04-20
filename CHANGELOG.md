@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.3
+
+* Change API
+
 ## v0.2.2
 
 ### Changes
